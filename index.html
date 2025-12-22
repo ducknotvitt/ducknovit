@@ -571,11 +571,17 @@
         let _k = '';
         let _r = false;
 
-        // Decode function
-        const _d = (s) => atob(s);
+        // UTF-8 safe decode
+        const _d = (s) => {
+            try {
+                return decodeURIComponent(atob(s).split('').map(c =>
+                    '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)
+                ).join(''));
+            } catch (e) { return atob(s); }
+        };
 
-        // Secret message (encoded)
-        const _m = 'SOKdpCBUw7RpIFnDqnUgRW0sIENoaSDDoCAh';
+        // Secret (UTF-8 Base64)
+        const _m = '4p2kIFTDtGkgWcOqdSBFbSwgQ2hpIMOgICE=';
 
         document.addEventListener('keydown', (e) => {
             if (e.key.length === 1 && e.key.match(/[a-z]/i)) {
