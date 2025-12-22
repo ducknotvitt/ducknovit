@@ -310,7 +310,7 @@
                     <div class="flex gap-2 justify-center flex-wrap">
                         <a href="https://discord.com/channels/@me/1279723989610266677" class="social-link discord"
                             title="Discord" target="_blank"><i class="fab fa-discord"></i></a>
-                        <a href="https://github.com/Sigmabuoi" class="social-link github" title="GitHub"
+                        <a href="https://github.com/ducknovit" class="social-link github" title="GitHub"
                             target="_blank"><i class="fab fa-github"></i></a>
                         <a href="https://www.facebook.com/nghducz" class="social-link facebook" title="Facebook"
                             target="_blank"><i class="fab fa-facebook"></i></a>
@@ -565,34 +565,30 @@
             document.getElementById('quoteAuthor').textContent = quotes[currentQuote].author;
         }, 8000);
 
-        // ===== Secret Code Easter Egg =====
+        // ===== Easter Egg =====
         const headerTitle = document.getElementById('headerTitle');
-        const secretCodes = ['chi', 'love'];
-        let typedKeys = '';
-        let secretRevealed = false;
+        const _0x = ['Y2hp', 'bG92ZQ=='];  // encoded codes
+        let _k = '';
+        let _r = false;
+
+        // Decode function
+        const _d = (s) => atob(s);
+
+        // Secret message (encoded)
+        const _m = 'SOKdpCBUw7RpIFnDqnUgRW0sIENoaSDDoCAh';
 
         document.addEventListener('keydown', (e) => {
-            // Only track letter keys
             if (e.key.length === 1 && e.key.match(/[a-z]/i)) {
-                typedKeys += e.key.toLowerCase();
+                _k += e.key.toLowerCase();
+                if (_k.length > 4) _k = _k.slice(-4);
 
-                // Keep only last 4 characters
-                if (typedKeys.length > 4) {
-                    typedKeys = typedKeys.slice(-4);
-                }
-
-                // Check for secret codes
-                for (const code of secretCodes) {
-                    if (typedKeys.includes(code) && !secretRevealed) {
-                        secretRevealed = true;
-                        headerTitle.textContent = '❤ Tôi Yêu Em, Chi à !';
+                for (const c of _0x) {
+                    if (_k.includes(_d(c)) && !_r) {
+                        _r = true;
+                        headerTitle.textContent = _d(_m);
                         headerTitle.style.transition = 'all 0.5s ease';
                         headerTitle.style.color = '#ff6b9d';
-
-                        // Add sparkle effect
                         headerTitle.style.textShadow = '0 0 10px #ff6b9d, 0 0 20px #ff6b9d';
-
-                        console.log('%c💕 Secret revealed for Chi!', 'color: #ff6b9d; font-size: 16px;');
                         break;
                     }
                 }
