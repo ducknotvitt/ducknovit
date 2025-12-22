@@ -9,16 +9,7 @@
   <!-- Dòng C++ ngay sát bên dưới -->
   <img
     src="[https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=E5E7EB&center=true&vCenter=true&width=600&lines=Python+%E2%80%A2+print('Love+Chi+❤️')](https://readme-typing-svg.demolab.com?font=Press+Start&pause=1000&color=FF6B9D&width=435&lines=Python+%E2%80%A2+print('Love+Chi+%E2%9D%A4%EF%B8%8F)"
-    alt="C++ Hello World"
+    alt="Python print('Hello World')"
   />
 
 </div>
-
-```cpp
-#include<bits/stdc++.h>
-using namespace std;
-
-int main(){
-    cout<<"Yêu em";
-    return 0;
-}
