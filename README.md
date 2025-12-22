@@ -1,14 +1,13 @@
 <div align="center">
-  <br/>
 
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,cpp,git,vscode,linux&theme=dark" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=28&duration=3000&pause=1000&color=E5E7EB&center=true&vCenter=true&width=600&lines=Nguyen+Huy+Duc" alt="Nguyen Huy Duc" />
   </a>
 
-  <br/><br/>
+  <br/>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=Python+%E2%80%A2+print('Love+Chi+%E2%9D%A4%EF%B8%8F')" alt="Python print Love Chi" />
+  </a>
 
 </div>
