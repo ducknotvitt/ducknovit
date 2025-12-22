@@ -8,7 +8,7 @@
 
   <!-- Dòng C++ ngay sát bên dưới -->
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=E5E7EB&center=true&vCenter=true&width=600&lines=Python+%E2%80%A2+print('Love C + H + i')"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=E5E7EB&center=true&vCenter=true&width=600&lines=Python+%E2%80%A2+print('Love+Chi+💖')"
     alt="Python - print('Hello World')"
   />
 
