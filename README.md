@@ -1,7 +1,7 @@
 <div align="center">
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=28&duration=3000&pause=1000&color=E5E7EB&center=true&vCenter=true&width=600&lines=Nguyen+Huy+Duc" alt="Nguyen Huy Duc" />
+    <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=28&duration=3000&pause=1000&color=E5E7EB&center=true&vCenter=true&width=600&lines=Nguyen+Huy+Duc" alt="Ducknovit" />
   </a>
 
   <br/>
